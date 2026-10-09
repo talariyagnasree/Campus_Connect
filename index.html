@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CampusConnect – Student Event Management</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#" aria-label="CampusConnect home">Campus<span>Connect</span></a>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab active" data-view="discover">Discover</button>
+      <button class="tab" data-view="saved">Saved <b id="sbadge">0</b></button>
+      <button class="tab" data-view="mine">My Events <b id="badge">0</b></button>
+    <button id="theme" class="themebtn" aria-label="Toggle dark mode">Dark</button></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="discover">
+    <div class="hero">
+      <h1>What's happening on campus?</h1>
+      <p>Find workshops, fests and talks. Register in under a minute.</p>
+      <input id="search" type="search" placeholder="Search by name, venue or club" aria-label="Search events">
+    </div>
+    <div class="filters">
+      <div id="chips" class="chips" role="group" aria-label="Filter by category"></div>
+      <select id="when" aria-label="Filter by date">
+        <option value="all">Any date</option>
+        <option value="week">Next 7 days</option>
+        <option value="month">Next 30 days</option>
+      </select>
+      <select id="sort" aria-label="Sort events"><option value="date">Soonest first</option><option value="seats">Most seats left</option><option value="name">A to Z</option></select>
+      <label class="check"><input type="checkbox" id="open"> Seats available</label>
+    </div>
+    <p class="muted"><span id="count" aria-live="polite"></span> <button id="clear" class="link" hidden>Clear filters</button></p>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section id="saved" hidden>
+    <h2>Saved events</h2>
+    <div id="savedGrid" class="grid"></div>
+  </section>
+
+  <section id="mine" hidden>
+    <h2>My Events</h2>
+    <p id="stats" class="muted"></p>
+    <div id="mineList" class="list"></div>
+  </section>
+</main>
+
+<dialog id="modal"><div id="modalBody"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<footer class="wrap muted foot">CampusConnect · Registrations are stored in the CampusConnect database.</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+[
+ {
+  "title": "Hack4Campus 24-Hour Hackathon",
+  "category": "Tech",
+  "day_offset": 3,
+  "time": "9:00 AM",
+  "venue": "Innovation Lab, Block C",
+  "club": "Coding Club",
+  "seats": 80,
+  "taken": 61,
+  "description": "Build a solution for a real campus problem in teams of 3–4. Mentors from industry, free meals, and prizes for the top three teams."
+ },
+ {
+  "title": "Intro to Machine Learning Workshop",
+  "category": "Workshop",
+  "day_offset": 5,
+  "time": "2:00 PM",
+  "venue": "Seminar Hall 2",
+  "club": "AI Society",
+  "seats": 60,
+  "taken": 34,
+  "description": "A hands-on session covering regression, classification and a first model in Python. Bring a laptop with Python installed."
+ },
+ {
+  "title": "Spandan Annual Cultural Fest",
+  "category": "Cultural",
+  "day_offset": 12,
+  "time": "4:00 PM",
+  "venue": "Main Auditorium",
+  "club": "Cultural Committee",
+  "seats": 400,
+  "taken": 312,
+  "description": "Dance, music, drama and stand-up from every department. Doors open at 3:30 PM."
+ },
+ {
+  "title": "Inter-Department Cricket League",
+  "category": "Sports",
+  "day_offset": 2,
+  "time": "8:00 AM",
+  "venue": "Central Ground",
+  "club": "Sports Council",
+  "seats": 150,
+  "taken": 150,
+  "description": "Knockout T10 matches across all departments. Spectator registration is open; teams register through the sports office."
+ },
+ {
+  "title": "Career Talk: Cracking Product Roles",
+  "category": "Career",
+  "day_offset": 6,
+  "time": "11:00 AM",
+  "venue": "Seminar Hall 1",
+  "club": "Placement Cell",
+  "seats": 120,
+  "taken": 47,
+  "description": "Two alumni product managers share how they prepared, what interviews look like, and answer your questions."
+ },
+ {
+  "title": "Photography Walk & Editing Basics",
+  "category": "Workshop",
+  "day_offset": 9,
+  "time": "6:30 AM",
+  "venue": "Meet at Main Gate",
+  "club": "Lens Club",
+  "seats": 30,
+  "taken": 22,
+  "description": "Shoot the campus at sunrise, then learn quick editing techniques. Phone cameras are welcome."
+ },
+ {
+  "title": "Open Mic Night",
+  "category": "Cultural",
+  "day_offset": 1,
+  "time": "6:00 PM",
+  "venue": "Amphitheatre",
+  "club": "Literary Society",
+  "seats": 100,
+  "taken": 58,
+  "description": "Poetry, music, comedy or just listening. Sign up to perform on the spot."
+ },
+ {
+  "title": "Web Development Bootcamp",
+  "category": "Tech",
+  "day_offset": 15,
+  "time": "10:00 AM",
+  "venue": "Computer Lab 3",
+  "club": "Coding Club",
+  "seats": 40,
+  "taken": 12,
+  "description": "A full-day build session: HTML, CSS and JavaScript. You leave with a deployed portfolio page."
+ },
+ {
+  "title": "Blood Donation Camp",
+  "category": "Social",
+  "day_offset": 7,
+  "time": "9:30 AM",
+  "venue": "Health Centre",
+  "club": "NSS Unit",
+  "seats": 200,
+  "taken": 96,
+  "description": "Donate and save lives. Free health check-up for every donor, refreshments included."
+ },
+ {
+  "title": "Inter-College Quiz Championship",
+  "category": "Career",
+  "day_offset": 20,
+  "time": "1:00 PM",
+  "venue": "Seminar Hall 2",
+  "club": "Quiz Club",
+  "seats": 64,
+  "taken": 20,
+  "description": "Teams of two compete across general knowledge, tech, sports and pop culture."
+ },
+ {
+  "title": "Robotics: Build Your First Line Follower",
+  "category": "Tech",
+  "day_offset": 25,
+  "time": "10:00 AM",
+  "venue": "Electronics Lab",
+  "club": "Robotics Club",
+  "seats": 25,
+  "taken": 25,
+  "description": "Assemble and program a line-following robot. Kits are provided."
+ },
+ {
+  "title": "Morning Yoga & Mindfulness",
+  "category": "Social",
+  "day_offset": 4,
+  "time": "6:30 AM",
+  "venue": "Sports Complex Lawn",
+  "club": "Wellness Cell",
+  "seats": 50,
+  "taken": 18,
+  "description": "A beginner-friendly session to help you de-stress before the semester gets busy."
+ }
+]
